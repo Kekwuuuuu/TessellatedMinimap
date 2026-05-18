@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HolorgraphicDisplays
+  m_Shader: {fileID: 4800000, guid: 5ef61d89bc18903499f653eb97de8cf6, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4fec5e9ccc055d44588184843239c844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScanTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0.85
+    - _AlphaBoost: 1
+    - _AlphaToMask: 0
+    - _Brightness: 1.2
+    - _BumpScale: 1
+    - _ChromaticStrength: 0.0028
+    - _ColorOverlayAlpha: 0.515
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DissolveMax: 1
+    - _DissolveMin: 0.2
+    - _DissolveSpeed: 0
+    - _DstBlend: 10
+    - _EmissiveStrength: 1
+    - _FlashBrightness: 1
+    - _FlashCooldown: 0.1
+    - _FlashDuration: 0.05
+    - _Fuzziness: 0
+    - _GlitchChromatic: 0.0427
+    - _GlitchCount: 3
+    - _GlitchDuration: 0.1
+    - _GlitchHorizontal: 0.027
+    - _GlitchInterval: 2
+    - _GlitchSpeed: 500
+    - _GlitchStrength: 0.006
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 1.2
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 0.324
+    - _Parallax: 0.02
+    - _PixelCountX: 64
+    - _PixelCountY: 64
+    - _RimPower: 3
+    - _RimStrength: 1
+    - _Roundness: 1
+    - _ScanBrightness: 1.61
+    - _ScanFrequency: 25
+    - _ScanSpeed: 1.26
+    - _ScanStrength: 0.91
+    - _ScanThickness: 0.3
+    - _ScanTiling: 25
+    - _ScanWidth: 0.01
+    - _ScanlineCount: 42.2
+    - _ScanlineIntensity: 0.2
+    - _ScanlineSpeed: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _StripesDensity: 130.1
+    - _Transparency: 0.2
+    - _UVSec: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 0.37264147, g: 0.7525099, b: 1, a: 0.74509805}
+    - _ColorB: {r: 0.19999996, g: 0.39999998, b: 1, a: 1}
+    - _ColorG: {r: 0.5824349, g: 0.43867922, b: 1, a: 1}
+    - _ColorR: {r: 0.9292453, g: 0.9719421, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0.47641504, g: 0.8540377, b: 1, a: 1}
+    - _MainColor: {r: 0.19999996, g: 0.8, b: 1, a: 1}
+    - _RimColor: {r: 0.8, g: 1, b: 1, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
